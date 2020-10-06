@@ -1,0 +1,184 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+    
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Title Session */
+
+.big-head {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navbar */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+  /* download butons */
+
+.download-button {
+    margin: 5% 5% 5% 0;
+}
+
+/* iphone */
+
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-right: 30%;
+}
+
+/* Features Section */
+
+#features {
+    background-color: #ffffff;
+    position: relative;
+}
+
+/* Feature Box */
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/* Feature fontawesome */
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+
+/* Testimonial section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+    /* cta */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-h3{
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    background-color: #fff;
+}
+
+.social{
+    margin: 3%;
+}
+
+/* MEDIA QUERRIES */
+
+@media (max-width: 1028px) {
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+@media (min-width: 1028px){
+    .social{
+        margin: 3%;
+    }
+    
+    .footer-text{
+        font-size: 2rem;
+    }
+}
